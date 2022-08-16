@@ -16,7 +16,7 @@ class WebsiteSelenium:
             if (
                     a.get_attribute("href") is not None
                     and "http" in a.get_attribute("href")
-                    and "dgraph.io" in a.get_attribute("href")
+                    and "kumowiz" in a.get_attribute("href")
                     and "github" not in a.get_attribute("href")
                     and "zip" not in a.get_attribute("href")
                     and "https://discuss.dgraph.io/t/" not in a.get_attribute("href")
@@ -113,12 +113,12 @@ def get_logger(
 if __name__ == "__main__":
     start = time.time()
     my_logger = get_logger()
-    visited_page_urls = recurse_check(url="https://www.dgraph.io")
+    visited_page_urls = recurse_check(url="https://www.kumowiz.com")
     my_logger.info("\n\n**********\n\n")
     my_logger.info("routes:")
     for key, value in visited_page_urls.items():
         logging.info(key)
 
     end = time.time()
-    print("The time of execution of above program is :", end - start)
+    my_logger.info("The time of execution of above program is :", end - start)
 
