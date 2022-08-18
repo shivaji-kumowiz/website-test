@@ -89,8 +89,8 @@ urlsParentInfo = dict()
 def get_logger(
         LOG_FORMAT     = '%(levelname)-1s %(message)s',
         LOG_NAME       = '',
-        LOG_FILE_INFO  = 'out.log',
-        LOG_FILE_ERROR = 'out.err'):
+        LOG_FILE_INFO  = 'outOld.log',
+        LOG_FILE_ERROR = 'outOld.err'):
 
     log           = logging.getLogger(LOG_NAME)
     log_formatter = logging.Formatter(LOG_FORMAT)
