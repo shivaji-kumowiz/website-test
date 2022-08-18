@@ -32,7 +32,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a Python script
-        run: python  main.py
+        run: python  mainOld.py
       - name: commit files
         run: |
           git config --local user.email "action@github.com"
