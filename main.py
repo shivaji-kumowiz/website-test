@@ -16,7 +16,7 @@ class WebsiteSelenium:
             if (
                     a.get_attribute("href") is not None
                     and "http" in a.get_attribute("href")
-                    and "dgraph.io" in a.get_attribute("href")
+                    and "kumowiz" in a.get_attribute("href")
                     and "github" not in a.get_attribute("href")
                     and "zip" not in a.get_attribute("href")
                     and "https://discuss.dgraph.io/t/" not in a.get_attribute("href")
@@ -51,15 +51,15 @@ def recurse_check(url):
     urls.add(url)
     visited_page_urls = dict()
     while len(urls) > 0:
-        urlList=[]
+        urlList=set()
         y = 0
-        if (len(urls) >= 1 and len(urls) < 8):
+        if (len(urls) >= 1 and len(urls) < 12):
             y = len(urls)
         else:
-            y = 8
+            y = 12
         for x in range(y):
-            urlList.append(urls.pop())
-        with concurrent.futures.ThreadPoolExecutor(max_workers=8) as executor:
+            urlList.add(urls.pop())
+        with concurrent.futures.ThreadPoolExecutor(max_workers=12) as executor:
             futures =[]
             for url1 in urlList:
                 if url1 in visited_page_urls and visited_page_urls[url1] is True:
@@ -113,7 +113,7 @@ def get_logger(
 if __name__ == "__main__":
     start = time.time()
     my_logger = get_logger()
-    visited_page_urls = recurse_check(url="https://www.dgraph.io")
+    visited_page_urls = recurse_check(url="https://www.kumowiz.com")
     my_logger.info("\n\n**********\n\n")
     my_logger.info("routes:")
     for key, value in visited_page_urls.items():
