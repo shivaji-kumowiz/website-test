@@ -1,0 +1,332 @@
+INFO 
+checking https://www.kumowiz.com
+INFO page loaded 
+INFO obtained 16 urls
+INFO total pending urls count 16
+INFO total crawled urls count 1
+INFO 
+checking https://www.kumowiz.com/product-engineering
+INFO 
+checking https://www.kumowiz.com/uiux
+INFO 
+checking https://www.kumowiz.com/
+INFO 
+checking https://www.kumowiz.com/sitemap-1
+INFO 
+checking https://www.kumowiz.com/productengg2
+INFO 
+checking https://www.kumowiz.com/contact-us
+INFO 
+checking https://www.kumowiz.com/testing-services
+INFO 
+checking https://www.kumowiz.com/devops
+INFO page loaded 
+INFO obtained 16 urls
+INFO page loaded 
+INFO obtained 17 urls
+INFO page loaded 
+INFO obtained 16 urls
+INFO page loaded 
+INFO obtained 16 urls
+INFO page loaded 
+INFO obtained 16 urls
+INFO page loaded 
+INFO obtained 16 urls
+INFO page loaded 
+INFO obtained 16 urls
+INFO page loaded 
+INFO obtained 17 urls
+INFO total pending urls count 32
+INFO total crawled urls count 9
+INFO 
+checking https://www.kumowiz.com/#header
+INFO 
+checking https://www.kumowiz.com/blogs
+INFO 
+checking https://www.kumowiz.com/enterprise-mobility
+INFO 
+checking https://www.kumowiz.com/devops#
+INFO 
+checking https://www.kumowiz.com/data-engineering
+INFO 
+checking https://www.kumowiz.com/devops#header
+INFO page loaded 
+INFO obtained 16 urls
+INFO page loaded 
+INFO obtained 16 urls
+INFO page loaded 
+INFO obtained 16 urls
+INFO page loaded 
+INFO obtained 16 urls
+INFO page loaded 
+INFO obtained 16 urls
+INFO page loaded 
+INFO obtained 20 urls
+INFO total pending urls count 42
+INFO total crawled urls count 15
+INFO 
+checking https://www.kumowiz.com/blogs/geospatial
+INFO 
+checking https://www.kumowiz.com/contact-us#
+INFO 
+checking https://www.kumowiz.com/testing-services#header
+INFO 
+checking https://www.kumowiz.com/data-engineering#
+INFO 
+checking https://www.kumowiz.com/home-1
+INFO 
+checking https://www.kumowiz.com/search
+INFO page loaded 
+INFO obtained 16 urls
+INFO page loaded 
+INFO obtained 16 urls
+INFO page loaded 
+INFO obtained 16 urls
+INFO page loaded 
+INFO obtained 19 urls
+INFO page loaded 
+INFO obtained 16 urls
+INFO page loaded 
+INFO obtained 16 urls
+INFO total pending urls count 46
+INFO total crawled urls count 21
+INFO 
+checking https://www.kumowiz.com/blogs/geospatial#comments-5b51aab52b6a28a4f40a2bf5
+INFO 
+checking https://www.kumowiz.com/#
+INFO 
+checking https://www.kumowiz.com/about-us
+INFO 
+checking https://www.linkedin.com/company/kumowiz-technologies/
+INFO 
+checking https://www.kumowiz.com/sitemap-1#
+INFO 
+checking https://www.kumowiz.com/case-studies-1
+INFO 
+checking https://www.kumowiz.com/product-engineering#header
+INFO page loaded 
+INFO obtained 0 urls
+INFO page loaded 
+INFO obtained 16 urls
+INFO page loaded 
+INFO obtained 17 urls
+INFO page loaded 
+INFO obtained 16 urls
+INFO page loaded 
+INFO obtained 16 urls
+INFO page loaded 
+INFO obtained 17 urls
+INFO page loaded 
+INFO obtained 19 urls
+INFO total pending urls count 51
+INFO total crawled urls count 28
+INFO 
+checking https://www.kumowiz.com/blogs/geospatial#
+INFO 
+checking https://www.kumowiz.com/case-studies-1#
+INFO 
+checking https://www.kumowiz.com/productengg2#header
+INFO 
+checking https://www.kumowiz.com/enterprise-mobility#header
+INFO 
+checking https://www.kumowiz.com/sitemap-1#header
+INFO 
+checking https://www.kumowiz.com/about-us#
+INFO 
+checking https://www.kumowiz.com/testing-services#
+INFO page loaded 
+INFO obtained 16 urls
+INFO page loaded 
+INFO obtained 16 urls
+INFO page loaded 
+INFO obtained 16 urls
+INFO page loaded 
+INFO obtained 16 urls
+INFO page loaded 
+INFO obtained 16 urls
+INFO page loaded 
+INFO obtained 19 urls
+INFO page loaded 
+INFO obtained 17 urls
+INFO total pending urls count 51
+INFO total crawled urls count 35
+INFO 
+checking https://www.kumowiz.com/blogs?author=5a24f0606f935e599a01a71e
+INFO 
+checking https://www.kumowiz.com/search#
+INFO 
+checking https://www.kumowiz.com/productengg2#
+INFO 
+checking https://www.kumowiz.com/uiux#
+INFO 
+checking https://www.kumowiz.com/uiux#header
+INFO 
+checking https://www.kumowiz.com/home-1#
+INFO 
+checking https://www.kumowiz.com/data-engineering#header
+INFO page loaded 
+INFO obtained 16 urls
+INFO page loaded 
+INFO obtained 16 urls
+INFO page loaded 
+INFO obtained 16 urls
+INFO page loaded 
+INFO obtained 16 urls
+INFO page loaded 
+INFO obtained 16 urls
+INFO page loaded 
+INFO obtained 16 urls
+INFO page loaded 
+INFO obtained 20 urls
+INFO total pending urls count 54
+INFO total crawled urls count 42
+INFO 
+checking https://www.kumowiz.com/contact-us#header
+INFO 
+checking https://www.kumowiz.com/blogs#header
+INFO 
+checking https://www.kumowiz.com/home-1#header
+INFO 
+checking https://www.kumowiz.com/about-us#header
+INFO 
+checking https://www.kumowiz.com/product-engineering#
+INFO page loaded 
+INFO obtained 16 urls
+INFO page loaded 
+INFO obtained 16 urls
+INFO page loaded 
+INFO obtained 17 urls
+INFO page loaded 
+INFO obtained 16 urls
+INFO page loaded 
+INFO obtained 20 urls
+INFO total pending urls count 52
+INFO total crawled urls count 47
+INFO 
+checking https://www.kumowiz.com/enterprise-mobility#
+INFO 
+checking https://www.kumowiz.com/blogs/geospatial#header
+INFO 
+checking https://www.kumowiz.com/blogs#
+INFO page loaded 
+INFO obtained 16 urls
+INFO page loaded 
+INFO obtained 20 urls
+INFO page loaded 
+INFO obtained 19 urls
+INFO total pending urls count 50
+INFO total crawled urls count 50
+INFO 
+checking https://www.kumowiz.com/blogs?author=5a24f0606f935e599a01a71e#
+INFO 
+checking https://www.kumowiz.com/blogs?author=5a24f0606f935e599a01a71e#header
+INFO 
+checking https://www.kumowiz.com/search#header
+INFO page loaded 
+INFO obtained 16 urls
+INFO page loaded 
+INFO obtained 20 urls
+INFO page loaded 
+INFO obtained 20 urls
+INFO total pending urls count 48
+INFO total crawled urls count 53
+INFO total pending urls count 40
+INFO total crawled urls count 53
+INFO 
+checking https://www.kumowiz.com/case-studies-1#header
+INFO 
+checking https://www.kumowiz.com/blogs/django
+INFO page loaded 
+INFO obtained 16 urls
+INFO page loaded 
+INFO obtained 19 urls
+INFO total pending urls count 41
+INFO total crawled urls count 55
+INFO 
+checking https://www.kumowiz.com/blogs/django#header
+INFO page loaded 
+INFO obtained 19 urls
+INFO total pending urls count 38
+INFO total crawled urls count 56
+INFO total pending urls count 30
+INFO total crawled urls count 56
+INFO total pending urls count 22
+INFO total crawled urls count 56
+INFO total pending urls count 14
+INFO total crawled urls count 56
+INFO 
+checking https://www.kumowiz.com/blogs/django#
+INFO page loaded 
+INFO obtained 19 urls
+INFO total pending urls count 19
+INFO total crawled urls count 57
+INFO total pending urls count 11
+INFO total crawled urls count 57
+INFO total pending urls count 3
+INFO total crawled urls count 57
+INFO total pending urls count 0
+INFO total crawled urls count 57
+INFO 
+
+**********
+
+
+INFO routes:
+INFO https://www.kumowiz.com
+INFO https://www.kumowiz.com/
+INFO https://www.kumowiz.com/product-engineering
+INFO https://www.kumowiz.com/contact-us
+INFO https://www.kumowiz.com/productengg2
+INFO https://www.kumowiz.com/uiux
+INFO https://www.kumowiz.com/devops
+INFO https://www.kumowiz.com/testing-services
+INFO https://www.kumowiz.com/sitemap-1
+INFO https://www.kumowiz.com/#header
+INFO https://www.kumowiz.com/data-engineering
+INFO https://www.kumowiz.com/devops#
+INFO https://www.kumowiz.com/devops#header
+INFO https://www.kumowiz.com/enterprise-mobility
+INFO https://www.kumowiz.com/blogs
+INFO https://www.kumowiz.com/home-1
+INFO https://www.kumowiz.com/contact-us#
+INFO https://www.kumowiz.com/search
+INFO https://www.kumowiz.com/testing-services#header
+INFO https://www.kumowiz.com/blogs/geospatial
+INFO https://www.kumowiz.com/data-engineering#
+INFO https://www.linkedin.com/company/kumowiz-technologies/
+INFO https://www.kumowiz.com/about-us
+INFO https://www.kumowiz.com/product-engineering#header
+INFO https://www.kumowiz.com/#
+INFO https://www.kumowiz.com/case-studies-1
+INFO https://www.kumowiz.com/sitemap-1#
+INFO https://www.kumowiz.com/blogs/geospatial#comments-5b51aab52b6a28a4f40a2bf5
+INFO https://www.kumowiz.com/case-studies-1#
+INFO https://www.kumowiz.com/about-us#
+INFO https://www.kumowiz.com/enterprise-mobility#header
+INFO https://www.kumowiz.com/productengg2#header
+INFO https://www.kumowiz.com/testing-services#
+INFO https://www.kumowiz.com/blogs/geospatial#
+INFO https://www.kumowiz.com/sitemap-1#header
+INFO https://www.kumowiz.com/home-1#
+INFO https://www.kumowiz.com/search#
+INFO https://www.kumowiz.com/productengg2#
+INFO https://www.kumowiz.com/uiux#
+INFO https://www.kumowiz.com/data-engineering#header
+INFO https://www.kumowiz.com/uiux#header
+INFO https://www.kumowiz.com/blogs?author=5a24f0606f935e599a01a71e
+INFO https://www.kumowiz.com/home-1#header
+INFO https://www.kumowiz.com/about-us#header
+INFO https://www.kumowiz.com/product-engineering#
+INFO https://www.kumowiz.com/contact-us#header
+INFO https://www.kumowiz.com/blogs#header
+INFO https://www.kumowiz.com/enterprise-mobility#
+INFO https://www.kumowiz.com/blogs#
+INFO https://www.kumowiz.com/blogs/geospatial#header
+INFO https://www.kumowiz.com/search#header
+INFO https://www.kumowiz.com/blogs?author=5a24f0606f935e599a01a71e#
+INFO https://www.kumowiz.com/blogs?author=5a24f0606f935e599a01a71e#header
+INFO https://www.kumowiz.com/case-studies-1#header
+INFO https://www.kumowiz.com/blogs/django
+INFO https://www.kumowiz.com/blogs/django#header
+INFO https://www.kumowiz.com/blogs/django#
+INFO The time of execution of above program is :6.883034781614939
