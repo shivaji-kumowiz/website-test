@@ -119,6 +119,7 @@ def get_logger(
     return log
 
 if __name__ == "__main__":
+    print("hello world!")
     start = time.time()
     my_logger = get_logger()
     visited_page_urls = recurse_check(url="https://www.kumowiz.com")
