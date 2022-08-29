@@ -1,0 +1,27 @@
+1. Create a instance of the WebDriver
+2. Understand python pass by value/referenc
+How to use/create tabs in Firefox
+How to open links in different tabs?
+How to close tabs?
+
+
+** Create global object of WebsiteSelenium
+fireFoxObject = WebsiteSelenium...
+
+def get_page_urls(url):
+    logging.basicConfig(filename='out.log', level=logging.INFO)
+    logging.info(f"\nchecking {url}")
+    website_selenium_obj = WebsiteSelenium(url=url)
+
+    # Create new tab in fireFoxObject
+    # Get URL in this tab
+    # Close tab
+    try:
+        urls = website_selenium_obj.get_page_urls()
+        logging.info(f"page loaded ✅")
+        logging.info(f"obtained {len(urls)} urls")
+    except Exception as e:
+        logging.info(f"page load error ❌ => {str(e)}")
+        urls = set()
+    website_selenium_obj.driver.close()
+    return urls

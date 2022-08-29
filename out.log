@@ -1,0 +1,142 @@
+INFO 
+checking https://www.kumowiz.com
+INFO page loaded 
+INFO obtained 16 urls
+INFO total pending urls count 16
+INFO total crawled urls count 1
+INFO 
+checking https://www.kumowiz.com/uiux
+INFO 
+checking https://www.linkedin.com/company/kumowiz-technologies/
+INFO 
+checking https://www.kumowiz.com/sitemap-1
+INFO 
+checking https://www.kumowiz.com/#
+INFO 
+checking https://www.kumowiz.com/
+INFO 
+checking https://www.kumowiz.com/devops
+INFO 
+checking https://www.kumowiz.com/case-studies-1
+INFO 
+checking https://www.kumowiz.com/about-us
+INFO page loaded 
+INFO obtained 16 urls
+WARNING Connection pool is full, discarding connection: localhost. Connection pool size: 1
+INFO page loaded 
+INFO obtained 16 urls
+WARNING Connection pool is full, discarding connection: localhost. Connection pool size: 1
+INFO page loaded 
+INFO obtained 16 urls
+WARNING Connection pool is full, discarding connection: localhost. Connection pool size: 1
+INFO page loaded 
+INFO obtained 16 urls
+WARNING Connection pool is full, discarding connection: localhost. Connection pool size: 1
+INFO page loaded 
+INFO obtained 16 urls
+WARNING Connection pool is full, discarding connection: localhost. Connection pool size: 1
+INFO page loaded 
+INFO obtained 16 urls
+WARNING Connection pool is full, discarding connection: localhost. Connection pool size: 1
+INFO page loaded 
+INFO obtained 16 urls
+WARNING Connection pool is full, discarding connection: localhost. Connection pool size: 1
+INFO page loaded 
+INFO obtained 16 urls
+INFO total pending urls count 17
+INFO total crawled urls count 9
+INFO 
+checking https://www.kumowiz.com/testing-services
+INFO 
+checking https://www.kumowiz.com/about-us#header
+INFO 
+checking https://www.kumowiz.com/productengg2
+INFO 
+checking https://www.kumowiz.com/data-engineering
+INFO 
+checking https://www.kumowiz.com/blogs
+INFO 
+checking https://www.kumowiz.com/enterprise-mobility
+INFO 
+checking https://www.kumowiz.com/contact-us
+INFO page loaded 
+INFO obtained 16 urls
+WARNING Connection pool is full, discarding connection: localhost. Connection pool size: 1
+INFO page loaded 
+INFO obtained 16 urls
+WARNING Connection pool is full, discarding connection: localhost. Connection pool size: 1
+INFO page loaded 
+INFO obtained 16 urls
+WARNING Connection pool is full, discarding connection: localhost. Connection pool size: 1
+INFO page loaded 
+INFO obtained 16 urls
+WARNING Connection pool is full, discarding connection: localhost. Connection pool size: 1
+INFO page loaded 
+INFO obtained 16 urls
+WARNING Connection pool is full, discarding connection: localhost. Connection pool size: 1
+INFO page loaded 
+INFO obtained 16 urls
+WARNING Connection pool is full, discarding connection: localhost. Connection pool size: 1
+INFO page loaded 
+INFO obtained 16 urls
+INFO total pending urls count 18
+INFO total crawled urls count 16
+INFO 
+checking https://www.kumowiz.com/#header
+INFO 
+checking https://www.kumowiz.com/product-engineering
+INFO 
+checking https://www.kumowiz.com/about-us#
+INFO 
+checking https://www.kumowiz.com/contact-us#header
+INFO page loaded 
+INFO obtained 16 urls
+WARNING Connection pool is full, discarding connection: localhost. Connection pool size: 1
+INFO page loaded 
+INFO obtained 16 urls
+WARNING Connection pool is full, discarding connection: localhost. Connection pool size: 1
+INFO page loaded 
+INFO obtained 16 urls
+WARNING Connection pool is full, discarding connection: localhost. Connection pool size: 1
+INFO page loaded 
+INFO obtained 16 urls
+INFO total pending urls count 16
+INFO total crawled urls count 20
+INFO 
+checking https://www.kumowiz.com/contact-us#
+INFO page loaded 
+INFO obtained 16 urls
+INFO total pending urls count 16
+INFO total crawled urls count 21
+INFO total pending urls count 8
+INFO total crawled urls count 21
+INFO total pending urls count 0
+INFO total crawled urls count 21
+INFO 
+
+**********
+
+
+INFO routes:
+INFO https://www.kumowiz.com
+INFO https://www.kumowiz.com/uiux
+INFO https://www.linkedin.com/company/kumowiz-technologies/
+INFO https://www.kumowiz.com/sitemap-1
+INFO https://www.kumowiz.com/#
+INFO https://www.kumowiz.com/
+INFO https://www.kumowiz.com/devops
+INFO https://www.kumowiz.com/case-studies-1
+INFO https://www.kumowiz.com/about-us
+INFO https://www.kumowiz.com/testing-services
+INFO https://www.kumowiz.com/about-us#header
+INFO https://www.kumowiz.com/productengg2
+INFO https://www.kumowiz.com/data-engineering
+INFO https://www.kumowiz.com/blogs
+INFO https://www.kumowiz.com/enterprise-mobility
+INFO https://www.kumowiz.com/contact-us
+INFO https://www.kumowiz.com/#header
+INFO https://www.kumowiz.com/product-engineering
+INFO https://www.kumowiz.com/about-us#
+INFO https://www.kumowiz.com/contact-us#header
+INFO https://www.kumowiz.com/contact-us#
+INFO The time of execution of above program is :2.292603596051534

@@ -10,6 +10,7 @@ class WebsiteSelenium:
 
     def get_page_urls(self):
         self.driver.get(self.url)
+        print("getting url in")
         urls_set = set()
         for a in self.driver.find_elements("xpath", ".//a"):
             if (
@@ -64,11 +65,13 @@ def recurse_check(url):
         with concurrent.futures.ThreadPoolExecutor(max_workers=12) as executor:
             futures =[]
             for url1 in urlList:
+                print("first for loop");
                 if url1 in visited_page_urls and visited_page_urls[url1] is True:
                     continue
                 else:
                     futures.append(executor.submit(get_page_urls, url=url1,driver=driver))
             for future in concurrent.futures.as_completed(futures):
+                print("second for loop");
                 parentUrl,tmp_urls = future.result()
                 #set parent url for the child url received
                 for childUrl in tmp_urls:

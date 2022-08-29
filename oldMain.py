@@ -3,10 +3,11 @@ import logging
 import concurrent.futures
 import time
 class WebsiteSelenium:
-    def __init__(self, url,driver):
+    def __init__(self, url):
         self.url = url
-
-        self.driver = driver    
+        firefox_options = webdriver.firefox.options.Options()
+        firefox_options.headless = True
+        self.driver = webdriver.Firefox(options=firefox_options)
 
     def get_page_urls(self):
         self.driver.get(self.url)
@@ -31,9 +32,9 @@ class WebsiteSelenium:
         return urls_set
 
 
-def get_page_urls(url,driver):
+def get_page_urls(url):
     my_logger.info(f"\nchecking {url}")
-    website_selenium_obj = WebsiteSelenium(url=url ,driver=driver)
+    website_selenium_obj = WebsiteSelenium(url=url)
     try:
         urls = website_selenium_obj.get_page_urls()
         my_logger.info(f"page loaded ")
@@ -41,6 +42,7 @@ def get_page_urls(url,driver):
     except Exception as e:
         my_logger.error("Url: "+ url+" " + "parentUrls: "+ ",".join(urlsParentInfo[url])+" error => "+ str(e))
         urls = set()
+    website_selenium_obj.driver.close()
     return url,urls
 
 
@@ -48,17 +50,13 @@ def recurse_check(url):
     urls = set()
     urls.add(url)
     visited_page_urls = dict()
-    firefox_options = webdriver.firefox.options.Options()
-    firefox_options.headless = False
-    driver = webdriver.Firefox(options=firefox_options)
     while len(urls) > 0:
-
         urlList=[]
         y = 0
-        if (len(urls) >= 1 and len(urls) < 8):
+        if (len(urls) >= 1 and len(urls) < 12):
             y = len(urls)
         else:
-            y = 8
+            y = 12
         for x in range(y):
             urlList.append(urls.pop())
         with concurrent.futures.ThreadPoolExecutor(max_workers=12) as executor:
@@ -67,7 +65,7 @@ def recurse_check(url):
                 if url1 in visited_page_urls and visited_page_urls[url1] is True:
                     continue
                 else:
-                    futures.append(executor.submit(get_page_urls, url=url1,driver=driver))
+                    futures.append(executor.submit(get_page_urls, url=url1))
             for future in concurrent.futures.as_completed(futures):
                 parentUrl,tmp_urls = future.result()
                 #set parent url for the child url received
@@ -80,11 +78,8 @@ def recurse_check(url):
                     urlsParentInfo[childUrl] = parentList
                 visited_page_urls[parentUrl] = True
                 urls.update(tmp_urls)
- 
-
         my_logger.info(f"total pending urls count {len(urls)}")
         my_logger.info(f"total crawled urls count {len(visited_page_urls)}")
-    driver.close()
     return visited_page_urls
 
 
@@ -126,4 +121,3 @@ if __name__ == "__main__":
 
     end = time.time()
     my_logger.info("The time of execution of above program is :" + str( (end - start)/60))
-
